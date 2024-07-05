@@ -62,16 +62,6 @@ namesArray.forEach(name => console.log(name));
 
 function fizzbuzz(intArray) {
     return intArray.map(num =>
-    // {
-    //     if (num % 5 === 0 && num % 3 === 0)
-    //         return "Fizz Buzz";
-    //     else if (num % 5 === 0)
-    //         return "Buzz";
-    //     else if (num % 3 === 0)
-    //         return "Fizz";
-    //     else
-    //         return num;
-    // }
         num % 3 === 0 && num % 5 === 0 ? "Fizz Buzz" :
         num % 3 === 0 ? "Fizz" :
         num % 5 === 0 ? "Buzz" :
